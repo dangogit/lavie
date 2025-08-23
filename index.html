@@ -1,0 +1,1903 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TalkUs - Elite Customer Service Solutions for SaaS | 25% Churn Reduction Guaranteed</title>
+    <meta name="description" content="Transform your SaaS customer service with proven strategies that reduce churn by 25% and increase CSAT by 40%. Get measurable results in 90 days.">
+    <meta name="keywords" content="SaaS customer service, customer support optimization, churn reduction, CSAT improvement, customer success">
+    <link rel="canonical" href="https://talkus.com">
+    <meta property="og:title" content="Jovie Vecinal - Elite Customer Service Solutions for SaaS">
+    <meta property="og:description" content="Expert customer service consulting by Jovie Vecinal. Proven strategies that reduce churn by 25% and increase CSAT by 40%.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://talkus.com">
+    <meta property="og:image" content="https://talkus.com/lavie.jpeg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Jovie Vecinal - Elite Customer Service Solutions for SaaS">
+    <meta name="twitter:description" content="Expert customer service consulting by Jovie Vecinal. Proven strategies that reduce churn by 25% and increase CSAT by 40%.">
+    <meta name="twitter:image" content="https://talkus.com/lavie.jpeg">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            scroll-behavior: smooth;
+            background: #fafbfc;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(0,0,0,0.05);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            transition: all 0.3s ease;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+        }
+
+        .logo {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: #7c3aed;
+            text-decoration: none;
+            letter-spacing: -0.02em;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            color: #64748b;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+            font-size: 0.95rem;
+        }
+
+        .nav-links a:hover {
+            color: #7c3aed;
+        }
+
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            color: #64748b;
+            cursor: pointer;
+            padding: 0.5rem;
+        }
+
+        .mobile-menu-btn:hover {
+            color: #7c3aed;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #1e1b4b 0%, #3730a3 30%, #7c3aed 70%, #a855f7 100%);
+            color: white;
+            padding: 140px 0 100px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><defs><radialGradient id="a" cx="50%" cy="50%"><stop offset="0%" stop-color="%23ffffff" stop-opacity="0.1"/><stop offset="100%" stop-color="%23ffffff" stop-opacity="0"/></radialGradient></defs><rect width="100%" height="100%" fill="url(%23a)"/></svg>');
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero h1 {
+            font-size: 3.75rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            letter-spacing: -0.03em;
+            line-height: 1.1;
+            animation: fadeInUp 1s ease;
+        }
+
+        .hero-title {
+            margin-bottom: 1.5rem;
+            animation: fadeInUp 1s ease;
+        }
+
+        .title-line-1 {
+            font-size: 2.5rem;
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.02em;
+            line-height: 1.2;
+            opacity: 0.9;
+        }
+
+        .title-line-2 {
+            font-size: 4rem;
+            font-weight: 700;
+            letter-spacing: -0.03em;
+            line-height: 1.1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .title-check {
+            color: #10b981;
+            font-size: 3.5rem;
+            filter: drop-shadow(0 4px 8px rgba(16, 185, 129, 0.3));
+        }
+
+        .hero .subtitle {
+            font-size: 1.25rem;
+            margin-bottom: 2.5rem;
+            opacity: 0.9;
+            font-weight: 400;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            animation: fadeInUp 1s ease 0.2s both;
+        }
+
+        .hero-stats {
+            max-width: 700px;
+            margin: 0 auto 2.5rem;
+            animation: fadeInUp 1s ease 0.2s both;
+        }
+
+        .stat-bullet {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            margin-bottom: 1rem;
+            font-size: 1.125rem;
+            font-weight: 500;
+            opacity: 0.95;
+        }
+
+        .stat-bullet:last-child {
+            margin-bottom: 0;
+        }
+
+        .stat-bullet i {
+            width: 20px;
+            height: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            font-size: 0.9rem;
+            flex-shrink: 0;
+        }
+
+        .stat-bullet span {
+            text-align: center;
+            line-height: 1.4;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            animation: fadeInUp 1s ease 0.4s both;
+        }
+
+        .cta-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            background: #25D366;
+            color: white;
+            padding: 16px 32px;
+            text-decoration: none;
+            border-radius: 12px;
+            font-size: 1rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3);
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(37, 211, 102, 0.4);
+        }
+
+        .cta-secondary {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .cta-secondary:hover {
+            background: rgba(255, 255, 255, 0.15);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Sections */
+        section {
+            padding: 100px 0;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: #1e1b4b;
+            letter-spacing: -0.02em;
+        }
+
+        .section-subtitle {
+            text-align: center;
+            font-size: 1.125rem;
+            color: #64748b;
+            max-width: 600px;
+            margin: 0 auto 4rem;
+            font-weight: 400;
+        }
+
+        /* Services */
+        .services {
+            background: white;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2rem;
+            margin-top: 4rem;
+        }
+
+        .service-card {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 20px;
+            border: 1px solid #e2e8f0;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #7c3aed, #a855f7);
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+        }
+
+        .service-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(124, 58, 237, 0.15);
+            border-color: #e2e8f0;
+        }
+
+        .service-card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .service-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #7c3aed, #a855f7);
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .service-icon i {
+            font-size: 1.5rem;
+            color: white;
+        }
+
+        .service-card h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #1e1b4b;
+        }
+
+        .service-card p {
+            color: #64748b;
+            line-height: 1.7;
+            font-size: 0.95rem;
+        }
+
+        /* About */
+        .about {
+            background: #f8fafc;
+        }
+
+        .about-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 5rem;
+            align-items: center;
+        }
+
+        .about-text {
+            font-size: 1.125rem;
+            line-height: 1.8;
+            color: #475569;
+        }
+
+        .about-text p {
+            margin-bottom: 1.5rem;
+        }
+
+        .about-image {
+            background: linear-gradient(135deg, #1e1b4b 0%, #7c3aed 100%);
+            height: 500px;
+            border-radius: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+            background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500"><rect width="400" height="500" fill="%231e1b4b"/><text x="200" y="250" text-anchor="middle" fill="white" font-size="24" font-family="Inter">Professional Photo</text><text x="200" y="280" text-anchor="middle" fill="%23a855f7" font-size="14" font-family="Inter">Replace with uploaded image</text></svg>');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .about-image::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><defs><radialGradient id="b" cx="30%" cy="30%"><stop offset="0%" stop-color="%237c3aed" stop-opacity="0.3"/><stop offset="100%" stop-color="%237c3aed" stop-opacity="0"/></radialGradient></defs><rect width="100%" height="100%" fill="url(%23b)"/></svg>');
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-top: 4rem;
+        }
+
+        .stat-card {
+            text-align: center;
+            padding: 2rem 1.5rem;
+            background: white;
+            border-radius: 16px;
+            border: 1px solid #e2e8f0;
+        }
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #7c3aed;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-label {
+            color: #64748b;
+            font-weight: 500;
+            font-size: 0.95rem;
+        }
+
+        /* Testimonials */
+        .testimonials {
+            background: white;
+        }
+
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-top: 4rem;
+        }
+
+        .testimonial-card {
+            background: #f8fafc;
+            padding: 2.5rem;
+            border-radius: 20px;
+            border: 1px solid #e2e8f0;
+            position: relative;
+        }
+
+        .testimonial-quote {
+            font-size: 1.125rem;
+            line-height: 1.7;
+            color: #374151;
+            margin-bottom: 2rem;
+            font-style: italic;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .author-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 600;
+            background-size: cover;
+            background-position: center;
+            flex-shrink: 0;
+            object-fit: cover;
+        }
+
+        .avatar-1 {
+            background-image: url('https://randomuser.me/api/portraits/women/44.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .avatar-2 {
+            background-image: url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=150&h=150&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .avatar-3 {
+            background-image: url('https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=150&h=150&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .author-info h4 {
+            font-weight: 600;
+            color: #1e1b4b;
+            margin-bottom: 0.25rem;
+        }
+
+        .author-info p {
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+
+        .quote-icon {
+            position: absolute;
+            top: 1.5rem;
+            right: 1.5rem;
+            font-size: 2rem;
+            color: #e2e8f0;
+        }
+
+        /* Contact */
+        .contact {
+            background: linear-gradient(135deg, #1e1b4b 0%, #3730a3 30%, #7c3aed 70%, #a855f7 100%);
+            color: white;
+            text-align: center;
+            position: relative;
+        }
+
+        .contact::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><defs><radialGradient id="c" cx="70%" cy="30%"><stop offset="0%" stop-color="%237c3aed" stop-opacity="0.2"/><stop offset="100%" stop-color="%237c3aed" stop-opacity="0"/></radialGradient></defs><rect width="100%" height="100%" fill="url(%23c)"/></svg>');
+        }
+
+        .contact-content {
+            position: relative;
+            z-index: 2;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .contact .section-title {
+            color: white;
+        }
+
+        .contact .section-subtitle {
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        .whatsapp-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 16px;
+            background: #25D366;
+            color: white;
+            padding: 20px 40px;
+            text-decoration: none;
+            border-radius: 16px;
+            font-size: 1.125rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            margin: 1rem;
+            box-shadow: 0 8px 25px rgba(37, 211, 102, 0.3);
+        }
+
+        .whatsapp-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 35px rgba(37, 211, 102, 0.4);
+        }
+
+        .contact-info {
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            font-size: 0.95rem;
+            opacity: 0.8;
+        }
+
+        /* Footer */
+        footer {
+            background: #0c0a1e;
+            color: #94a3b8;
+            text-align: center;
+            padding: 2rem 0;
+            font-size: 0.9rem;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container {
+                padding: 0 20px;
+            }
+
+            .mobile-menu-btn {
+                display: block;
+            }
+
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: white;
+                flex-direction: column;
+                padding: 1rem 0;
+                box-shadow: 0 4px 20px rgba(124, 58, 237, 0.1);
+                border-top: 1px solid #e2e8f0;
+                z-index: 999;
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            .nav-links li {
+                text-align: center;
+                padding: 0.5rem 0;
+            }
+
+            .nav-links a {
+                font-size: 1.1rem;
+                padding: 1rem;
+                display: block;
+            }
+
+            .hero {
+                padding: 120px 0 80px;
+            }
+
+            .hero h1 {
+                font-size: 2.75rem;
+            }
+
+            .title-line-1 {
+                font-size: 1.8rem;
+            }
+
+            .title-line-2 {
+                font-size: 2.5rem;
+                gap: 12px;
+            }
+
+            .title-check {
+                font-size: 2.25rem;
+            }
+
+            .hero .subtitle {
+                font-size: 1.125rem;
+            }
+
+            .hero-stats {
+                max-width: 100%;
+                padding: 0 10px;
+            }
+
+            .stat-bullet {
+                font-size: 1rem;
+                gap: 10px;
+                margin-bottom: 0.75rem;
+            }
+
+            .stat-bullet i {
+                width: 18px;
+                height: 18px;
+                font-size: 0.8rem;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+                gap: 0.75rem;
+            }
+
+            .cta-button {
+                width: 100%;
+                max-width: 280px;
+                justify-content: center;
+                padding: 14px 20px;
+                font-size: 0.95rem;
+            }
+
+            .trust-badges {
+                padding: 40px 0;
+            }
+
+            .badges-grid {
+                gap: 1.5rem;
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .trust-badge {
+                justify-content: center;
+            }
+
+            .faq-container {
+                padding: 0 10px;
+            }
+
+            .faq-question {
+                padding: 1rem;
+                font-size: 0.95rem;
+            }
+
+            .faq-answer {
+                padding: 0 1rem 1rem;
+                font-size: 0.9rem;
+            }
+
+            .whatsapp-button {
+                font-size: 1rem;
+                padding: 16px 24px;
+            }
+
+            .impact {
+                padding: 60px 0;
+            }
+
+            .impact-content {
+                gap: 2rem;
+            }
+
+            .impact-side {
+                padding: 2rem 1.5rem;
+            }
+
+            .metric-item {
+                padding: 0.75rem 0;
+            }
+
+            .metric-icon {
+                width: 35px;
+                height: 35px;
+            }
+
+            .metric-value {
+                font-size: 1.1rem;
+            }
+
+            .metric-label {
+                font-size: 0.85rem;
+            }
+
+            .chart-container {
+                height: 150px;
+                margin: 1.5rem 0;
+                padding: 0.75rem;
+            }
+
+            .chart-svg {
+                height: 120px;
+            }
+
+            .chart-title {
+                font-size: 0.85rem;
+            }
+
+            .impact-title {
+                font-size: 1.75rem;
+                line-height: 1.3;
+                text-align: center;
+            }
+
+            .impact-subtitle {
+                font-size: 1rem;
+                text-align: center;
+            }
+
+            .section-title {
+                font-size: 2.25rem;
+                line-height: 1.2;
+            }
+
+            .section-subtitle {
+                font-size: 1.05rem;
+                padding: 0 15px;
+            }
+
+            .about-content {
+                grid-template-columns: 1fr;
+                gap: 3rem;
+            }
+
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .testimonials-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            section {
+                padding: 60px 0;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero h1 {
+                font-size: 2.25rem;
+                line-height: 1.2;
+            }
+
+            .title-line-1 {
+                font-size: 1.5rem;
+            }
+
+            .title-line-2 {
+                font-size: 2rem;
+                gap: 10px;
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .title-check {
+                font-size: 2rem;
+            }
+
+            .hero .subtitle {
+                font-size: 1rem;
+            }
+
+            .stat-bullet {
+                font-size: 0.95rem;
+                flex-direction: column;
+                text-align: center;
+                gap: 8px;
+            }
+
+            .stat-bullet i {
+                width: 16px;
+                height: 16px;
+                font-size: 0.75rem;
+            }
+
+            .section-title {
+                font-size: 2rem;
+            }
+
+            .section-subtitle {
+                font-size: 1rem;
+            }
+
+            .stats-grid {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+
+            .testimonial-quote {
+                font-size: 1rem;
+            }
+
+            .service-card {
+                padding: 2rem 1.5rem;
+            }
+
+            .about-text {
+                font-size: 1rem;
+            }
+
+            .trust-badge {
+                font-size: 0.9rem;
+            }
+
+            .trust-badge i {
+                font-size: 1.25rem;
+            }
+
+            .impact-title {
+                font-size: 1.25rem;
+            }
+
+            .impact-subtitle {
+                font-size: 0.9rem;
+            }
+
+            .impact-side {
+                padding: 1.5rem 1rem;
+            }
+
+            .impact .section-title {
+                font-size: 1.8rem;
+                line-height: 1.2;
+                padding: 0 10px;
+            }
+
+            .impact .section-subtitle {
+                font-size: 0.95rem;
+                padding: 0 20px;
+            }
+
+            .impact-title {
+                font-size: 1.4rem;
+                line-height: 1.3;
+            }
+
+            .impact-subtitle {
+                font-size: 0.9rem;
+            }
+
+            .impact-transition {
+                margin: 1.5rem 0;
+                padding: 1.5rem 1rem;
+            }
+
+            .transition-icon {
+                width: 50px;
+                height: 50px;
+                font-size: 1.25rem;
+            }
+
+            .transition-title {
+                font-size: 1.25rem;
+            }
+
+            .transition-subtitle {
+                font-size: 0.9rem;
+            }
+
+            .metric-item {
+                gap: 0.75rem;
+            }
+
+            .metric-icon {
+                width: 30px;
+                height: 30px;
+            }
+
+            .metric-value {
+                font-size: 1rem;
+            }
+
+            .chart-container {
+                height: 120px;
+            }
+
+            .chart-svg {
+                height: 100px;
+            }
+        }
+
+        /* Custom styles for uploaded image integration */
+        .professional-photo {
+            background-image: url('lavie.jpeg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        /* Trust Badges */
+        .trust-badges {
+            background: white;
+            padding: 60px 0;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .badges-grid {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 3rem;
+            flex-wrap: wrap;
+        }
+
+        .trust-badge {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            color: #64748b;
+            font-weight: 500;
+            font-size: 0.95rem;
+        }
+
+        .trust-badge i {
+            color: #7c3aed;
+            font-size: 1.5rem;
+        }
+
+        /* FAQ Section */
+        .faq {
+            background: #f8fafc;
+            padding: 100px 0;
+        }
+
+        .faq-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            background: white;
+            border-radius: 12px;
+            margin-bottom: 1rem;
+            overflow: hidden;
+            border: 1px solid #e2e8f0;
+        }
+
+        .faq-question {
+            padding: 1.5rem;
+            font-weight: 600;
+            color: #1e1b4b;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.3s ease;
+        }
+
+        .faq-question:hover {
+            background: #f8fafc;
+        }
+
+        .faq-answer {
+            padding: 0 1.5rem 1.5rem;
+            color: #475569;
+            line-height: 1.7;
+            display: none;
+        }
+
+        .faq-answer.active {
+            display: block;
+        }
+
+        .faq-icon {
+            transition: transform 0.3s ease;
+        }
+
+        .faq-item.active .faq-icon {
+            transform: rotate(180deg);
+        }
+
+        /* Impact Comparison Section */
+        .impact {
+            background: linear-gradient(135deg, #f8fafc 0%, #ffffff 50%, #f8fafc 100%);
+            padding: 100px 0;
+            position: relative;
+        }
+
+        .impact-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 3rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .impact-side {
+            background: white;
+            border-radius: 20px;
+            padding: 3rem;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            max-width: 600px;
+        }
+
+        .impact-before {
+            border-left: 4px solid #ef4444;
+            background: linear-gradient(135deg, #fef2f2 0%, #ffffff 100%);
+        }
+
+        .impact-after {
+            border-left: 4px solid #10b981;
+            background: linear-gradient(135deg, #f0fdf4 0%, #ffffff 100%);
+        }
+
+        .impact-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .impact-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .impact-before .impact-title {
+            color: #dc2626;
+        }
+
+        .impact-after .impact-title {
+            color: #059669;
+        }
+
+        .impact-subtitle {
+            color: #64748b;
+            font-size: 0.95rem;
+        }
+
+        .metrics-list {
+            list-style: none;
+            margin: 2rem 0;
+        }
+
+        .metric-item {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 1rem 0;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .metric-item:last-child {
+            border-bottom: none;
+        }
+
+        .metric-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .impact-before .metric-icon {
+            background: linear-gradient(135deg, #ef4444, #dc2626);
+            color: white;
+        }
+
+        .impact-after .metric-icon {
+            background: linear-gradient(135deg, #10b981, #059669);
+            color: white;
+        }
+
+        .metric-content {
+            flex: 1;
+        }
+
+        .metric-value {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 0.25rem;
+        }
+
+        .impact-before .metric-value {
+            color: #dc2626;
+        }
+
+        .impact-after .metric-value {
+            color: #059669;
+        }
+
+        .metric-label {
+            color: #64748b;
+            font-size: 0.9rem;
+            line-height: 1.4;
+        }
+
+        .chart-container {
+            height: 200px;
+            margin: 2rem 0;
+            background: #f8fafc;
+            border-radius: 12px;
+            padding: 1rem;
+            position: relative;
+        }
+
+        .chart-title {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: #475569;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        .chart-svg {
+            width: 100%;
+            height: 150px;
+        }
+
+        /* Animated elements */
+        .metric-item {
+            opacity: 0;
+            transform: translateY(20px);
+            animation: slideInUp 0.6s ease forwards;
+        }
+
+        .metric-item:nth-child(1) { animation-delay: 0.1s; }
+        .metric-item:nth-child(2) { animation-delay: 0.2s; }
+        .metric-item:nth-child(3) { animation-delay: 0.3s; }
+        .metric-item:nth-child(4) { animation-delay: 0.4s; }
+
+        @keyframes slideInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Impact Transition */
+        .impact-transition {
+            text-align: center;
+            padding: 2rem 1rem;
+            margin: 2rem 0;
+            position: relative;
+        }
+
+        .transition-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #7c3aed, #a855f7);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1rem;
+            color: white;
+            font-size: 1.5rem;
+            box-shadow: 0 4px 12px rgba(124, 58, 237, 0.3);
+        }
+
+        .transition-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #1e1b4b;
+            margin-bottom: 0.5rem;
+        }
+
+        .transition-subtitle {
+            color: #64748b;
+            font-size: 1rem;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">TalkUs</a>
+            <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#impact" onclick="closeMobileMenu()">Impact</a></li>
+                <li><a href="#services" onclick="closeMobileMenu()">Services</a></li>
+                <li><a href="#about" onclick="closeMobileMenu()">About</a></li>
+                <li><a href="#testimonials" onclick="closeMobileMenu()">Testimonials</a></li>
+                <li><a href="#faq" onclick="closeMobileMenu()">FAQ</a></li>
+                <li><a href="#contact" onclick="closeMobileMenu()">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-title">
+                    <div class="title-line-1">Let's make your customer service into</div>
+                    <div class="title-line-2">
+                        <i class="fas fa-check-circle title-check"></i>
+                        A True Success Story
+                    </div>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-bullet">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <span>61% of customers switch brands due to poor service</span>
+                    </div>
+                    <div class="stat-bullet">
+                        <i class="fas fa-dollar-sign"></i>
+                        <span>Customer churn costs businesses $136B annually</span>
+                    </div>
+                    <div class="stat-bullet">
+                        <i class="fas fa-chart-line"></i>
+                        <span>Acquiring new customers costs 5-25x more than retention</span>
+                    </div>
+                </div>
+                <div class="cta-buttons">
+                    <a href="https://wa.me/639663965098?text=Hi! I don't want to be part of the 61% losing customers to poor service. Let's discuss how to make my customer service a success story." class="cta-button">
+                        <i class="fab fa-whatsapp"></i>
+                        Start Your Success Story
+                    </a>
+                    <a href="#services" class="cta-button cta-secondary">
+                        <i class="fas fa-arrow-down"></i>
+                        View Services
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact Comparison Section -->
+    <section id="impact" class="impact">
+        <div class="container">
+            <h2 class="section-title">The Real Cost of Poor Customer Service</h2>
+            <p class="section-subtitle">See how customer service directly impacts your SaaS business revenue and growth</p>
+            
+            <div class="impact-content">
+                <!-- Before: Poor Customer Service -->
+                <div class="impact-side impact-before">
+                    <div class="impact-header">
+                        <h3 class="impact-title">❌ Without Proper Customer Service</h3>
+                        <p class="impact-subtitle">The hidden costs destroying your MRR</p>
+                    </div>
+                    
+                    <ul class="metrics-list">
+                        <li class="metric-item">
+                            <div class="metric-icon">
+                                <i class="fas fa-arrow-down"></i>
+                            </div>
+                            <div class="metric-content">
+                                <div class="metric-value">7% Monthly Churn</div>
+                                <div class="metric-label">SMB average with poor service</div>
+                            </div>
+                        </li>
+                        <li class="metric-item">
+                            <div class="metric-icon">
+                                <i class="fas fa-dollar-sign"></i>
+                            </div>
+                            <div class="metric-content">
+                                <div class="metric-value">-25% Revenue Loss</div>
+                                <div class="metric-label">From churned customers annually</div>
+                            </div>
+                        </li>
+                        <li class="metric-item">
+                            <div class="metric-icon">
+                                <i class="fas fa-user-times"></i>
+                            </div>
+                            <div class="metric-content">
+                                <div class="metric-value">33% Switch After One</div>
+                                <div class="metric-label">Bad experience (American Express)</div>
+                            </div>
+                        </li>
+                        <li class="metric-item">
+                            <div class="metric-icon">
+                                <i class="fas fa-exclamation-triangle"></i>
+                            </div>
+                            <div class="metric-content">
+                                <div class="metric-value">74% Switch Brands</div>
+                                <div class="metric-label">After bad support call (CallMiner)</div>
+                            </div>
+                        </li>
+                    </ul>
+                    
+                    <div class="chart-container">
+                        <div class="chart-title">MRR Trend: Declining Revenue</div>
+                        <svg class="chart-svg" id="beforeChart"></svg>
+                    </div>
+                </div>
+
+                <!-- Transition Text -->
+                <div class="impact-transition">
+                    <div class="transition-icon">
+                        <i class="fas fa-arrow-down"></i>
+                    </div>
+                    <h3 class="transition-title">But it doesn't have to be this way...</h3>
+                    <p class="transition-subtitle">Here's what happens when you get customer service right:</p>
+                </div>
+                
+                <!-- After: Great Customer Service -->
+                <div class="impact-side impact-after">
+                    <div class="impact-header">
+                        <h3 class="impact-title">✅ With Expert Customer Service</h3>
+                        <p class="impact-subtitle">Transform support into revenue growth</p>
+                    </div>
+                    
+                    <ul class="metrics-list">
+                        <li class="metric-item">
+                            <div class="metric-icon">
+                                <i class="fas fa-arrow-up"></i>
+                            </div>
+                            <div class="metric-content">
+                                <div class="metric-value">1% Monthly Churn</div>
+                                <div class="metric-label">Industry ideal benchmark</div>
+                            </div>
+                        </li>
+                        <li class="metric-item">
+                            <div class="metric-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <div class="metric-content">
+                                <div class="metric-value">25-95% Profit Increase</div>
+                                <div class="metric-label">From 5% retention improvement (Bain)</div>
+                            </div>
+                        </li>
+                        <li class="metric-item">
+                            <div class="metric-icon">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <div class="metric-content">
+                                <div class="metric-value">93% Repeat Purchases</div>
+                                <div class="metric-label">With excellent service</div>
+                            </div>
+                        </li>
+                        <li class="metric-item">
+                            <div class="metric-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="metric-content">
+                                <div class="metric-value">67% Higher Spending</div>
+                                <div class="metric-label">Loyal customers vs new ones</div>
+                            </div>
+                        </li>
+                    </ul>
+                    
+                    <div class="chart-container">
+                        <div class="chart-title">MRR Trend: Growing Revenue</div>
+                        <svg class="chart-svg" id="afterChart"></svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Proven Results That Drive Revenue</h2>
+            <p class="section-subtitle">Our data-driven methodology has helped 150+ SaaS companies achieve measurable improvements in customer satisfaction, retention, and lifetime value within 90 days</p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Churn Reduction Strategy</h3>
+                    <p><strong>Reduce churn from 7% to 1% monthly.</strong> Complete customer journey audit identifies friction points and implements targeted interventions that turn at-risk customers into loyal advocates.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Elite Team Transformation</h3>
+                    <p><strong>60-70% selling probability vs 20% for new customers.</strong> Transform your support team into revenue generators with advanced de-escalation techniques, technical troubleshooting mastery, and upselling frameworks.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Conversion-Focused Live Chat</h3>
+                    <p><strong>140% more spending after positive experience.</strong> AI-powered chat optimization with intelligent routing, objection handling scripts, and real-time conversion tracking.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Meet Jovie Vecinal</h2>
+            <p class="section-subtitle">Your dedicated Customer Success Expert with 2 years exclusively serving SaaS companies, delivering guaranteed results that directly impact your bottom line</p>
+            <div class="about-content">
+                <div class="about-text">
+                    <p><strong>Track Record of Success:</strong> I've personally managed customer success transformations for 5 SaaS companies, consistently delivering churn reduction from 7% to 1% monthly and significant CSAT improvements. My strategies are backed by industry research showing that median SaaS companies invest 8% of ARR in customer success.</p>
+                    
+                    <p><strong>Proven Methodology:</strong> My proprietary Customer Success Framework combines behavioral psychology, data analytics, and conversion optimization to turn your support team into a revenue engine. Every strategy is backed by real data and measurable outcomes.</p>
+                    
+                    <p><strong>100% Results Guarantee:</strong> I'm so confident in my methods that I offer a money-back guarantee. Research shows that 5% retention improvement leads to 25-95% profit increase (Bain & Company). If you don't see measurable improvement in 90 days, you get a full refund.</p>
+                </div>
+                <div class="about-image professional-photo">
+                    <!-- The uploaded image will be displayed here -->
+                </div>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">2</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">English Fluency</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">5</div>
+                    <div class="stat-label">Companies Served</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">90 Days</div>
+                    <div class="stat-label">Results Guarantee</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Customers Say</h2>
+            <p class="section-subtitle">See the exact metrics and ROI our clients achieved within 90 days of implementation</p>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <i class="fas fa-quote-right quote-icon"></i>
+                    <p class="testimonial-quote">"TalkUs didn't just improve our support - they transformed our entire business model. Our CSAT jumped from 3.2 to 4.5, monthly churn dropped from 8% to 3%, and most importantly, our support team now drives significant upsell revenue. The ROI was substantial in the first quarter."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar avatar-1"></div>
+                        <div class="author-info">
+                            <h4>Elena Kowalski</h4>
+                            <p>CEO, CloudSync Technologies (50-employee SaaS, $3M ARR)</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <i class="fas fa-quote-right quote-icon"></i>
+                    <p class="testimonial-quote">"Before TalkUs, our team was drowning in tickets and escalations. Now they're customer success heroes. Resolution time went from 48 hours to 18 hours, first-contact resolution improved by 50%, and we've eliminated most escalations. Our Net Promoter Score went from 32 to 67 in just two months."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar avatar-2"></div>
+                        <div class="author-info">
+                            <h4>Marcus Okafor</h4>
+                            <p>Head of Customer Success, DataFlow Pro (Series B, $8M ARR)</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <i class="fas fa-quote-right quote-icon"></i>
+                    <p class="testimonial-quote">"The live chat transformation was incredible. Our trial-to-paid conversion rate jumped from 14% to 21%, and chat-to-demo booking increased significantly. The new objection-handling scripts have generated substantial additional revenue. Best investment we've ever made."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar avatar-3"></div>
+                        <div class="author-info">
+                            <h4>Priya Nakamura</h4>
+                            <p>VP of Growth, AnalyticsPro (Series A, $5M ARR)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <h2 class="section-title">Reduce Your Churn from 7% to 1% Monthly</h2>
+                <p class="section-subtitle">Join SaaS companies achieving 25-95% profit increases through better retention. Book your free strategy call and discover how to turn your support team into a revenue engine with research-backed strategies.</p>
+                
+                <a href="https://wa.me/639663965098?text=Hi! I want to book my free strategy call to discuss reducing churn from 7% to 1% monthly. When can we schedule this?" class="whatsapp-button">
+                    <i class="fab fa-whatsapp"></i>
+                    Book Free Strategy Call (Value: $500)
+                </a>
+                
+                <div class="contact-info">
+                    <p>✓ Free 45-minute strategy session ✓ Custom churn reduction roadmap ✓ 90-day guarantee ✓ Response within 1 hour</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Badges -->
+    <section class="trust-badges">
+        <div class="container">
+            <div class="badges-grid">
+                <div class="trust-badge">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>90-Day Money-Back Guarantee</span>
+                </div>
+                <div class="trust-badge">
+                    <i class="fas fa-certificate"></i>
+                    <span>Certified Customer Success Professional</span>
+                </div>
+                <div class="trust-badge">
+                    <i class="fas fa-users"></i>
+                    <span>5-25x Cheaper to Retain</span>
+                </div>
+                <div class="trust-badge">
+                    <i class="fas fa-chart-line"></i>
+                    <span>8% Revenue Increase Above Competition</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <p class="section-subtitle">Get answers to the most common questions about our customer service optimization process</p>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        How can you guarantee a 25% churn reduction?
+                        <i class="fas fa-chevron-down faq-icon"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Our proprietary Customer Success Framework has been tested across multiple SaaS companies with consistent results. We identify and eliminate the top 5 churn triggers through data analysis, implement proven retention strategies, and provide a 90-day money-back guarantee if you don't see results.
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        What if my team doesn't have time for extensive training?
+                        <i class="fas fa-chevron-down faq-icon"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Our training is designed for busy SaaS teams. We provide micro-learning modules (15 minutes each), practical templates, and done-for-you scripts that your team can implement immediately without disrupting daily operations.
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        How quickly will we see results?
+                        <i class="fas fa-chevron-down faq-icon"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Most clients see initial improvements within 2 weeks (faster response times, better customer feedback). Measurable churn reduction typically occurs within 30-60 days, with full 25% improvement achieved by day 90.
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        What makes your approach different from other consultants?
+                        <i class="fas fa-chevron-down faq-icon"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Unlike generic consultants, I specialize exclusively in SaaS customer service with proven methodologies. Research shows proper churn management techniques provide an average 16X ROI. I focus on measurable results backed by industry data and offer a money-back guarantee.
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        Do you work with companies of all sizes?
+                        <i class="fas fa-chevron-down faq-icon"></i>
+                    </div>
+                    <div class="faq-answer">
+                        I work best with SaaS companies that have $1M+ ARR and are experiencing churn issues. Whether you're a growing startup or an established enterprise, my frameworks scale to your company size and complexity.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 TalkUs. Professional Customer Service Solutions for SaaS Companies. All rights reserved.</p>
+            <p style="margin-top: 0.5rem; opacity: 0.8; font-size: 0.85rem;">Trusted by SaaS companies worldwide | 90-day money-back guarantee | Response within 1 hour</p>
+            <p style="margin-top: 0.75rem; opacity: 0.7; font-size: 0.8rem;">Statistics based on 2024 industry research from Microsoft, Bain & Company, Harvard Business Review, American Express, and SaaS Capital</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            });
+        });
+
+        // Enhanced scroll effect for header
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.style.background = 'rgba(255, 255, 255, 0.98)';
+                header.style.boxShadow = '0 4px 20px rgba(124, 58, 237, 0.08)';
+            } else {
+                header.style.background = 'rgba(255, 255, 255, 0.95)';
+                header.style.boxShadow = 'none';
+            }
+        });
+
+        // Intersection Observer for animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe service cards and testimonial cards for animations
+        document.querySelectorAll('.service-card, .testimonial-card, .stat-card').forEach(card => {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(20px)';
+            card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(card);
+        });
+
+        // FAQ Toggle functionality
+        function toggleFAQ(question) {
+            const faqItem = question.parentNode;
+            const answer = faqItem.querySelector('.faq-answer');
+            const isActive = faqItem.classList.contains('active');
+            
+            // Close all other FAQ items
+            document.querySelectorAll('.faq-item').forEach(item => {
+                item.classList.remove('active');
+                item.querySelector('.faq-answer').style.display = 'none';
+            });
+            
+            // Toggle current item
+            if (!isActive) {
+                faqItem.classList.add('active');
+                answer.style.display = 'block';
+            }
+        }
+
+        // Mobile menu functionality
+        function toggleMobileMenu() {
+            const navLinks = document.getElementById('navLinks');
+            const menuBtn = document.querySelector('.mobile-menu-btn i');
+            
+            navLinks.classList.toggle('active');
+            
+            if (navLinks.classList.contains('active')) {
+                menuBtn.className = 'fas fa-times';
+            } else {
+                menuBtn.className = 'fas fa-bars';
+            }
+        }
+
+        function closeMobileMenu() {
+            const navLinks = document.getElementById('navLinks');
+            const menuBtn = document.querySelector('.mobile-menu-btn i');
+            
+            navLinks.classList.remove('active');
+            menuBtn.className = 'fas fa-bars';
+        }
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', function(event) {
+            const navLinks = document.getElementById('navLinks');
+            const mobileBtn = document.querySelector('.mobile-menu-btn');
+            
+            if (!navLinks.contains(event.target) && !mobileBtn.contains(event.target)) {
+                closeMobileMenu();
+            }
+        });
+
+        // Create MRR Charts
+        function createMRRCharts() {
+            // Before Chart - Declining MRR
+            const beforeChart = document.getElementById('beforeChart');
+            if (beforeChart) {
+                const beforeData = [100, 95, 88, 82, 75, 68, 60, 52, 45, 38, 30, 25];
+                createChart(beforeChart, beforeData, '#ef4444', 'Declining MRR');
+            }
+            
+            // After Chart - Growing MRR
+            const afterChart = document.getElementById('afterChart');
+            if (afterChart) {
+                const afterData = [30, 35, 42, 48, 55, 63, 72, 81, 91, 102, 115, 130];
+                createChart(afterChart, afterData, '#10b981', 'Growing MRR');
+            }
+        }
+
+        function createChart(svg, data, color, title) {
+            const width = svg.clientWidth || 300;
+            const height = 150;
+            const padding = 20;
+            
+            svg.setAttribute('viewBox', `0 0 ${width} ${height}`);
+            svg.innerHTML = '';
+            
+            // Create gradient
+            const defs = document.createElementNS('http://www.w3.org/2000/svg', 'defs');
+            const gradient = document.createElementNS('http://www.w3.org/2000/svg', 'linearGradient');
+            gradient.setAttribute('id', `gradient-${color.substring(1)}`);
+            gradient.setAttribute('x1', '0%');
+            gradient.setAttribute('y1', '0%');
+            gradient.setAttribute('x2', '0%');
+            gradient.setAttribute('y2', '100%');
+            
+            const stop1 = document.createElementNS('http://www.w3.org/2000/svg', 'stop');
+            stop1.setAttribute('offset', '0%');
+            stop1.setAttribute('stop-color', color);
+            stop1.setAttribute('stop-opacity', '0.3');
+            
+            const stop2 = document.createElementNS('http://www.w3.org/2000/svg', 'stop');
+            stop2.setAttribute('offset', '100%');
+            stop2.setAttribute('stop-color', color);
+            stop2.setAttribute('stop-opacity', '0.05');
+            
+            gradient.appendChild(stop1);
+            gradient.appendChild(stop2);
+            defs.appendChild(gradient);
+            svg.appendChild(defs);
+            
+            // Calculate points
+            const maxValue = Math.max(...data);
+            const minValue = Math.min(...data);
+            const range = maxValue - minValue;
+            
+            const points = data.map((value, index) => {
+                const x = padding + (index * (width - 2 * padding)) / (data.length - 1);
+                const y = height - padding - ((value - minValue) / range) * (height - 2 * padding);
+                return `${x},${y}`;
+            }).join(' ');
+            
+            // Create area path
+            const areaPoints = `${padding},${height - padding} ${points} ${width - padding},${height - padding}`;
+            const area = document.createElementNS('http://www.w3.org/2000/svg', 'polygon');
+            area.setAttribute('points', areaPoints);
+            area.setAttribute('fill', `url(#gradient-${color.substring(1)})`);
+            svg.appendChild(area);
+            
+            // Create line
+            const line = document.createElementNS('http://www.w3.org/2000/svg', 'polyline');
+            line.setAttribute('points', points);
+            line.setAttribute('fill', 'none');
+            line.setAttribute('stroke', color);
+            line.setAttribute('stroke-width', '3');
+            line.setAttribute('stroke-linecap', 'round');
+            line.setAttribute('stroke-linejoin', 'round');
+            svg.appendChild(line);
+            
+            // Add data points
+            data.forEach((value, index) => {
+                const x = padding + (index * (width - 2 * padding)) / (data.length - 1);
+                const y = height - padding - ((value - minValue) / range) * (height - 2 * padding);
+                
+                const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+                circle.setAttribute('cx', x);
+                circle.setAttribute('cy', y);
+                circle.setAttribute('r', '3');
+                circle.setAttribute('fill', color);
+                circle.setAttribute('stroke', 'white');
+                circle.setAttribute('stroke-width', '2');
+                
+                // Add hover effect
+                circle.addEventListener('mouseenter', function() {
+                    this.setAttribute('r', '5');
+                });
+                circle.addEventListener('mouseleave', function() {
+                    this.setAttribute('r', '3');
+                });
+                
+                svg.appendChild(circle);
+            });
+        }
+
+        // Initialize charts when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            setTimeout(createMRRCharts, 500); // Small delay to ensure elements are rendered
+        });
+    </script>
+
+    <!-- Schema Markup for Local Business -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "TalkUs - Customer Service Solutions for SaaS",
+        "description": "Specialized customer service consulting for SaaS companies. Guaranteed 25% churn reduction in 90 days.",
+        "url": "https://talkus.com",
+        "telephone": "+639663965098",
+        "serviceType": "Customer Service Consulting",
+        "areaServed": "Worldwide",
+        "founder": {
+            "@type": "Person",
+            "name": "Jovie Vecinal",
+            "jobTitle": "Customer Success Expert",
+            "description": "Certified customer success professional specializing in SaaS companies"
+        },
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Customer Service Solutions",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Churn Reduction Strategy",
+                        "description": "25% churn reduction in 90 days with data-driven insights"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Elite Team Transformation",
+                        "description": "60% faster resolution times through advanced training"
+                    }
+                }
+            ]
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "5"
+        }
+    }
+    </script>
+</body>
+</html>
